@@ -3,8 +3,6 @@
 ## 💻️ About the challenge
 ### In this challenge, you must create an application to train what you've learned so far in Node.js!
 
-<br>
-
 ### This will be an application to manage tasks (*todos*). You will be allowed to create a user with `name` and `username`, as well as to use CRUD of *todos* :
 - Create a new *todo*;
 - List all *todos*;
@@ -40,7 +38,6 @@ yarn test
 ```console
 yarn dev
 ```
-<br>
 
 ## 🗂️ Application resources
 ### You can use tools like [Insomnia](https://insomnia.rest/) or [Postman](https://www.postman.com/) for HTTP requests.
@@ -58,8 +55,6 @@ yarn dev
 
 2. List *todos* from a specific user: `http://localhost:3333/todos` [GET]
    - The resource must receive, through the request header, a `username` property containing the username of the user and return a list of all taks for that user.
-
-<br>
 
 3. Create a new *todo*: `http://localhost:3333/todos` [POST]
     - The resource must receive a `title` and `deadline` within the request body, and a `username` property containing the username of the user within the request header. Each task must be in the following format: 
